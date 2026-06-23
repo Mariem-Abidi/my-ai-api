@@ -1,4 +1,3 @@
-cat > src/rag.py << 'EOF'
 from dotenv import load_dotenv
 load_dotenv()
 
@@ -38,4 +37,3 @@ def retrieve_context(query, k=3):
     vectorstore = get_vectorstore()
     results = vectorstore.similarity_search(query, k=k)
     return "\n\n".join([doc.page_content for doc in results])
-EOF
