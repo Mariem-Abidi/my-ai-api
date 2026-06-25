@@ -1,3 +1,11 @@
+---
+title: my-ai-api 🤖
+emoji: 🤖
+colorFrom: blue
+colorTo: purple
+sdk: docker
+pinned: false
+---
 # my-ai-api 🤖
 
 A conversational AI API with RAG (Retrieval-Augmented Generation) and an autonomous web research agent. Built with FastAPI, ChromaDB, and OpenRouter. Deployed on Hugging Face Spaces via Docker.
